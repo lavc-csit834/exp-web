@@ -1,0 +1,62 @@
+header, nav, article, aside, footer {
+    background-color: lightgray;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 2px grey;
+}
+.tux {
+    float: right;
+}
+h2 {
+    text-align: right;
+}
+
+
+nav {
+    float: left;
+    width: 10%;
+    line-height: 125%;
+    padding-right: 5px;
+}
+
+article {
+    margin: 5px;
+    float:right;
+    clear:right;
+    width: 86%;
+    line-height: 125%;
+}
+
+button {
+    
+    padding: 2px;
+    margin: 15px;
+    width: 10%;
+    line-height: 150%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 2px grey;
+}
+
+button:hover {
+    background-color: yellow;
+    }
+
+button #prev {
+    display: flex;
+    float:left;
+    text-align: left;
+    }
+button #next {
+    display: flex;
+    float:right;
+    text-align: right;
+   }
+
+footer {
+    clear: both;
+    padding: 1%;
+}
+footer:hover {
+    background-color: yellow;
+}
